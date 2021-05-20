@@ -1,7 +1,9 @@
 
 public enum Enum_final {
 
-   ONE(1,"齐国"),TWO(2,"楚国"),THREE(3,"燕国"),FUR(4,"赵国"),FIVE(5,"魏国"),SIX(6,"韩国");
+    ONE(1,"齐国"),TWO(2,"楚国"),
+    THREE(3,"燕国"),FUR(4,"赵国"),
+    FIVE(5,"魏国"),SIX(6,"韩国");
 
    private Integer id;
    private String name;

@@ -1,6 +1,5 @@
-import java.util.HashMap;
-import java.util.Map;
-import java.util.concurrent.BrokenBarrierException;
+package CyclicBarrier.src;
+
 import java.util.concurrent.CyclicBarrier;
 
 /**

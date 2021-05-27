@@ -1,3 +1,5 @@
+package CyclicBarrier.src;
+
 public enum Enum_schoolFellow {
 
     ONE(1,"小明"),TWO(2,"小王"),

@@ -1,9 +1,9 @@
 package com.winowsi.studySwagger.controller;
 
-import com.sun.source.tree.NewArrayTree;
+
 import com.winowsi.studySwagger.entity.Student;
 import com.winowsi.studySwagger.util.Information;
-import io.swagger.annotations.Api;
+
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiParam;
@@ -47,6 +47,11 @@ public class StudyController {
     @PutMapping("/putStudent")
     @ApiOperation("推送学生")
     public Student putStudent(@ApiParam("学生对象") Student student){
+        return null;
+    }@PutMapping("/putStudent")
+
+    @ApiOperation("添加学生")
+    public Student addStudent(@ApiParam("学生对象") Student student){
         return null;
     }
 
